@@ -47,4 +47,6 @@
 
 .similar-products .card-img-top {
   height: 300px !important;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
