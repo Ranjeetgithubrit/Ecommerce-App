@@ -41,7 +41,7 @@ const Products = () => {
                   <img
                     src={`/api/v1/product/product-photo/${p._id}`}
                     className="card-img-top "
-                    style={{aspectRatio:"3/2"}}
+                    style={{aspectRatio:"3/2",objectFit:"contain"}}
                     alt={p.name}
                   />
                   <div className="card-body">
